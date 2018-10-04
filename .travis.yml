@@ -13,8 +13,10 @@ before_script:
 
 script: 
   - yarn docz:build
-  - wget http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/attach/50452/cn_zh/1524643963683/ossutil64 -P ./upload
-  - chmod +x ./upload/ossutil64
+  - if [ -f "$./upload/ossutil64" ]; then 
+      wget http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/attach/50452/cn_zh/1524643963683/ossutil64 -P ./upload;
+      chmod +x ./upload/ossutil64;
+    fi 
   - ./upload/ossutil64 config -e $OSS_ENDPOINT -i $OSS_ID -k $OSS_KEY
   - if [ $TRAVIS_BRANCH  ] && [ $TRAVIS_BRANCH = "master" ]; then
         ./upload/ossutil64 cp ./.docz/dist/ oss://$OSS_BUCKETNAME --update --recursive;
