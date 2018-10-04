@@ -1,0 +1,11 @@
+{
+  "name": "docz",
+  "scripts": {
+    "docz:dev": "docz dev",
+    "docz:build": "docz build"
+  },
+  "devDependencies": {
+    "docz": "latest"
+  },
+  "dependencies": {}
+}
