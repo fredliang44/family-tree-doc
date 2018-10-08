@@ -1,9 +1,10 @@
 ---
 name: User
 menu: PRD
-order: 4
 route: /prd/user
+order: 97
 ---
+
 # 用户部分
 ## 1. 用户数据
    

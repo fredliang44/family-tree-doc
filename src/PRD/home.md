@@ -1,11 +1,11 @@
 ---
 name: Home
 menu: PRD
-order: 3
 route: /prd/home
+order: 98
 ---
 
-# 落地页
+# 落地页部分
 
 <img style={{maxWidth:'100%'}} src="https://storage.fredliang.cn/web/2018-10-08-home%20%E2%80%93%2021.png"/>
 

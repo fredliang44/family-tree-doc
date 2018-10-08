@@ -1,8 +1,8 @@
 ---
 name: Login & Register
 menu: PRD
-order: 2
 route: /prd/login
+order: 99
 ---
 
 # 登录注册部分

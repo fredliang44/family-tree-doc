@@ -1,6 +1,8 @@
 ---
 name: Admin
 menu: PRD
-order: 7
 route: /prd/admin
+order: 93
 ---
+
+# 管理员部分

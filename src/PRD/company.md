@@ -1,6 +1,8 @@
 ---
 name: Company
 menu: PRD
-order: 6
 route: /prd/company
+order: 94
 ---
+
+# 企业信息部分

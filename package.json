@@ -2,10 +2,12 @@
   "name": "docz",
   "scripts": {
     "docz:dev": "docz dev",
-    "docz:build": "docz build"
+    "docz:build": "docz build",
+    "changelog:patch": "changelog -p -f changelog.mdx"
   },
   "devDependencies": {
-    "docz": "latest"
+    "docz": "latest",
+    "generate-changelog": "^1.7.1"
   },
   "dependencies": {},
   "license": "MPL-2.0"
