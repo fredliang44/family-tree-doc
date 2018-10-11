@@ -33,4 +33,4 @@ order: 100
 视觉：|[**蓝湖**](https://lanhuapp.com/url/WSGwt)
 前端：|[**Github**](https://github.com/JiahaiHu/family-tree)
 后端：|[**Github**](https://github.com/fredliang44/family-tree)
-接口：|[**Swagger**](https://fmt.hustunique.com)
+接口：|[**Swagger**](https://fmt.fredliang.cn)
